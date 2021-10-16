@@ -1,5 +1,5 @@
 import React from "react";
-import '../style/RecoveryPassword'
+import '../style/RecoveryPassword.scss'
 
 const RecoveryPassword = () => {
   return (
