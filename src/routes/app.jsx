@@ -5,7 +5,7 @@ import Login from '../containers/Login';
 import RecoveryPassword from '../containers/RecoveryPassword';
 import Home from '../pages/Home';
 import NotFound from '../pages/NotFound';
-import '../styles/global.css';
+import '../style/global.scss';
 
 const App = () => {
     return (
