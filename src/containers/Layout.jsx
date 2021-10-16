@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Layaut = ({children}) => {
+const Layout = ({children}) => {
     return(
-        <div className="layaut">
+        <div className="layout">
             {children}
         </div>
     );
 }
 
-export default Layaut;
+export default Layout;
