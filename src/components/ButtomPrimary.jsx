@@ -1,14 +1,15 @@
 import React from "react";
+
 import '../styles/ButtonPrimary.scss';
 
 
-const ButtomPrimary = () => {
+const ButtomPrimary = (valor) => {
   return (
-    <input
+    <button
       type="submit"
       className="primary-button login-button"
-      defaultValue="Create account"
-    />
+      defaultValue={valor.valor}
+    >{valor.valor}</button>
   );
 };
 

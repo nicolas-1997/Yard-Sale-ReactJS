@@ -38,7 +38,7 @@ const CreateAccount = () => {
               className="input input-password"
             />
           </div>
-          <ButtomPrimary />
+          <ButtomPrimary valor="Create Account :)"/>
         </form>
       </div>
     </div>
