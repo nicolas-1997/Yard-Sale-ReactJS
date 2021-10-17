@@ -1,6 +1,7 @@
 import React from "react";
 
 import ButtomPrimary from "../components/ButtomPrimary";
+import Input from "../components/Input";
 import '../styles/CreateAccount.scss';
 
 const CreateAccount = () => {
@@ -10,33 +11,9 @@ const CreateAccount = () => {
         <h1 className="title">My account</h1>
         <form action="/" className="form">
           <div>
-            <label htmlFor="name" className="label">
-              Name
-            </label>
-            <input
-              type="text"
-              placeholder="Tu nombre"
-              id="name"
-              className="input input-text"
-            />
-            <label htmlFor="email" className="label">
-              Email address
-            </label>
-            <input
-              type="email"
-              placeholder="example@hotmail.com"
-              id="email"
-              className="input input-text"
-            />
-            <label htmlFor="new-password" className="label">
-              Password
-            </label>
-            <input
-              type="password"
-              placeholder="********"
-              id="new-password"
-              className="input input-password"
-            />
+            <Input label="Name" IdInput="Name" TypeInput="text" PlaceholderInput="Tu Nombre" className="input input-text"/>
+            <Input label="Email Addres" IdInput="email" TypeInput="email" PlaceholderInput="example@hotmail.com" className="input input-text"/>
+            <Input label="Password" IdInput="new-password" TypeInput="password" PlaceholderInput="********" className="input input-password"/>
           </div>
           <ButtomPrimary valor="Create Account :)"/>
         </form>
