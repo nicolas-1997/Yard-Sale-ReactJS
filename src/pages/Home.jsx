@@ -1,12 +1,12 @@
 import React from 'react';
 import Header from '../components/Header';
-import CreateAccount from '../containers/CreateAccount';
+import EditAccount from '../containers/EditAccount'
 
 const Home = () => {
 	return (
 		<div>
 			<Header />
-			<CreateAccount />
+			<EditAccount />
 		</div>
 	);
 }

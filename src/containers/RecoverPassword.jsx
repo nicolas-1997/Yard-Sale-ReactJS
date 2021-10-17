@@ -1,7 +1,7 @@
 import React from 'react';
-import '../styles/Login.scss';
+import '../styles/RecoverPassword.scss';
 
-const Login = () => {
+const RecoverPassword = () => {
 	return (
 		<div className="login">
 			<div className="form-container">
@@ -20,4 +20,4 @@ const Login = () => {
 	);
 }
 
-export default Login;
+export default RecoverPassword;

@@ -30,7 +30,6 @@ const Form = (values) => {
               className="input input-password"
             />
           </div>
-          <ButtomPrimary typeButton="submit" classNameButton="primary-button login-button" valor="Create Account :)" />
         </form>
     )
 }
