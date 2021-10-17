@@ -1,12 +1,12 @@
 import React from 'react';
 import Header from '../components/Header';
-import ProductDetail from '../containers/ProductDetail';
+import EmailSent from '../containers/EmailSent';
 
 const Home = () => {
 	return (
 		<div>
 			<Header />
-			<ProductDetail/>
+			<EmailSent/>
 		</div>
 	);
 }
