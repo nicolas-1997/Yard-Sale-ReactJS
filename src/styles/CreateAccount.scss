@@ -13,45 +13,5 @@
   width: 300px;
   padding: 12px;
 }
-.form {
-  display: flex;
-  flex-direction: column;
-  padding: 8px;
-  margin-top: 8px;
-  width: 90%;
-}
-.form div {
-  display: flex;
-  flex-direction: column;
-}
-// .label {
-//   margin: 12px 0;
-//   font-size: var(--md);
-//   font-weight: var(--bold-weight);
-//   color: var(--black);
-//   text-align: left;
-// }
-// .input {
-//   width: 93%;
-//   height: 24px;
-//   padding: 8px;
-//   border-radius: 12px;
-//   background-color: var(--text-input-field);
-//   color: var(--dark);
-//   text-align: left;
-//   border: none;
-//   align-items: center;
-//   font-family: "Quicksand", sans-serif;
-//   font-size: var(--md);
-//   margin-bottom: 20px;
-// }
 
-@media (max-width: 640px) {
-  .form-container {
-    height: 90%;
-  }
-  .form {
-    height: 100%;
-    justify-content: space-between;
-  }
-}
+
