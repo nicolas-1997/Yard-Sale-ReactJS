@@ -1,4 +1,6 @@
 import React from "react";
+
+import ButtomPrimary from "../components/ButtomPrimary";
 import '../styles/CreateAccount.scss';
 
 const CreateAccount = () => {
@@ -36,11 +38,7 @@ const CreateAccount = () => {
               className="input input-password"
             />
           </div>
-          <input
-            type="submit"
-            className="primary-button login-button"
-            defaultValue="Create account"
-          />
+          <ButtomPrimary />
         </form>
       </div>
     </div>
