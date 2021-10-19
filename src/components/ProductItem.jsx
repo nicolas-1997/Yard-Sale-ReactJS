@@ -3,7 +3,7 @@ import '@styles/ProductItem.scss';
 
 import btAddToCart from '@icons/bt_add_to_cart.svg'
 
-const ProductItem = () => {
+const productItem = () => {
 	const [cart, setCart] = useState([])
 }
 
